@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorphirðu dagatal</title>
+    <script src="trashdate.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+		<!-- Allt sem viðkemur input -->
+        <label for="address"><h5>Sláðu inn götu- eða bæjarheiti:</h5></label>
+        <input class="form-control" type="text" name="address" id="address" /> <br/>
+        <button class="btn btn-primary btn active" type="submit" id="myBtn" onclick="get_dates_for_address()">Finna sorphirðudaga</button>
+		<!-- Script lætur vera að hægt er að ýta á enter í stað þess að ýta á takkann. -->
+                <script>
+                document.getElementById("address")
+                    .addEventListener("keyup", function(event) {
+                    event.preventDefault();
+                    if (event.keyCode === 13) {
+                        document.getElementById("myBtn").click();
+                    }
+                });
+            </script>
+	</div><br/>
+		<p><strong>Fyrirvari: </strong></p><p>Líta skal á sorphirðudagatalið sem viðmiðunardagatal.  Veðurfar, veikindi og bilanir geta haft áhrif en almennt ætti ekki að skeika meiru en 1/2 til 1 degi á sorphirðu milli svæða. Ef frekari tafa verður vart verður það auglýst sérstaklega á heimasíðu sveitarfélagsins.</p><br/>
+	<div id="textforhouse"></div>
+	<!-- Hér koma niðurstöðurnar -->
+    <div class="grid-container">
+        <div class="grid-item" id="dates_gray_div"><h6>Grátunnur - Dagsetningar:</h6><ul id="dates_gray_list"></ul></div>
+        <div class="grid-item" id="dates_blue_div"><h6>Blátunnur - Dagsetningar:</h6><ul id="dates_blue_list"></ul></div>
+        <div class="grid-item" id="dates_green_div"><h6>Græntunnur - Dagsetningar:</h6><ul id="dates_green_list"></ul></div>
+    </div>
+</body>
+</html> 
