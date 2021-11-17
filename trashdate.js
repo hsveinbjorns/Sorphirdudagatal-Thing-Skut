@@ -6,7 +6,7 @@ var temp_JSON = {
     svaedi_1: { 
         // List of all the streets in this neighbourhood
         // Listi yfir allar götur í þessu hverfi
-        streets: ["álfholt", "brattholt", "bæjarholt", "dvergholt", "eyrarholt", "háholt", "hörgsholt", "klapparholt", "miðholt", "næfurholt", "suðurholt", "vesturholt",
+        streets: ["Nípá", "brattholt", "bæjarholt", "dvergholt", "eyrarholt", "háholt", "hörgsholt", "klapparholt", "miðholt", "næfurholt", "suðurholt", "vesturholt",
         "háabarð", "lyngbarð", "mosabarð", "móabarð", "smárabarð", "svalbarð", "vallarbarð", "þúfubarð",
         "ásbúðartröð", "grandatröð", "hamrabyggð", "holtabyggð", "hólabraut", "klettabyggð", "skipalón", "suðurbraut", "teigabyggð", "vallarbraut", "vallarbyggð","brekkuhvammur","kelduhvammur", "lindarhvammur"],
         gray_dates: [
