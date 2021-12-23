@@ -313,6 +313,8 @@ function get_dates_for_address(){
     dates_gray_list.innerHTML = ""
     dates_blue_list = document.getElementById("dates_blue_list")
     dates_blue_list.innerHTML = ""
+    dates_green_list = document.getElementById("dates_green_list")
+    dates_green_list.innerHTML = ""
     address = address.toLowerCase()
 	textforhousesdiv.classList.add("marginbot")
 
@@ -331,7 +333,7 @@ function get_dates_for_address(){
                         let day = temp_JSON[neighbourhood].gray_dates[date].getDate()                    
                         let month = (temp_JSON[neighbourhood].gray_dates[date].getMonth())
 						if(first === 1){
-							textforhousesdiv.innerHTML += '<br/><h5 class="graydatebox">Næsta losun á grátunnum<br/>'+day+'. '+months[month]+'</h5>'
+							textforhousesdiv.innerHTML += '<br/><h5 id="graydatebox">Næsta losun á grátunnum<br/>'+day+'. '+months[month]+'</h5>'
 						}else{
 							dates_gray_list.innerHTML += "<li>"+day+". "+months[month]+""
 						}
@@ -346,9 +348,24 @@ function get_dates_for_address(){
                         let day = temp_JSON[neighbourhood].blue_dates[date].getDate()                    
                         let month = (temp_JSON[neighbourhood].blue_dates[date].getMonth())
 						if(first === 1){
-							textforhousesdiv.innerHTML += '<h5 class="bluedatebox">Næsta losun á blátunnum<br/>'+day+'. '+months[month]+'</h5><br/>'
+							textforhousesdiv.innerHTML += '<h5 id="bluedatebox">Næsta losun á blátunnum<br/>'+day+'. '+months[month]+'</h5>'
 						}else{
 							dates_blue_list.innerHTML += "<li>"+day+". "+months[month]+""
+						}
+                    }
+                }
+                first = 0
+                for(date in temp_JSON[neighbourhood].green_dates){
+                    // Loop through all dates for the address
+                    if(temp_JSON[neighbourhood].green_dates[date] > current_date){
+                        // If date is in the future then list it
+						first += 1
+                        let day = temp_JSON[neighbourhood].green_dates[date].getDate()                    
+                        let month = (temp_JSON[neighbourhood].green_dates[date].getMonth())
+						if(first === 1){
+							textforhousesdiv.innerHTML += '<h5 id="greendatebox">Næsta losun á græntunnum<br/>'+day+'. '+months[month]+'</h5><br/>'
+						}else{
+							dates_green_list.innerHTML += "<li>"+day+". "+months[month]+""
 						}
                     }
                 }
