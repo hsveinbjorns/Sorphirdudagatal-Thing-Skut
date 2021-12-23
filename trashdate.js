@@ -90,17 +90,18 @@ var temp_JSON = {
 ],
         gray_dates: [
             // List over dates for when the gray trash bin will be emptied for this neighbourhood
-            // Listi yfir allar dagsetningar þegar grátunnur eru tæmdar fyrir þetta hverfi
-            new Date(2020,11,28),new Date(2021,0,11),new Date(2021,0,25),new Date(2021,1,8),  new Date(2021,1,22), new Date(2021,2,8),  new Date(2021,2,22), 
-            new Date(2021,3,6),  new Date(2021,3,19),new Date(2021,4,3), new Date(2021,4,17), new Date(2021,4,31), new Date(2021,5,14), new Date(2021,5,28),
-            new Date(2021,6,12), new Date(2021,6,26),new Date(2021,7,9), new Date(2021,7,23), new Date(2021,8,6),  new Date(2021,8,20), 
-            new Date(2021,9,4),  new Date(2021,9,18),new Date(2021,10,1),new Date(2021,10,15),new Date(2021,10,29),new Date(2021,11,13),new Date(2021,11,27)],
+            // Listi yfir allar dagsetningar þegar tunnur fyrir almennt rusl eru tæmdar fyrir þetta hverfi
+            new Date(2022,0,4),new Date(2022,0,25),new Date(2022,1,15),new Date(2022,2,8),  new Date(2022,2,29), new Date(2022,3,26),  new Date(2022,4,10), 
+            new Date(2022,4,31),  new Date(2022,5,21),new Date(2022,6,12), new Date(2022,7,2), new Date(2022,7,23), new Date(2022,8,13), new Date(2022,9,4),
+            new Date(2022,9,25), new Date(2022,10,15),new Date(2022,11,6), new Date(2022,11,27)],
         blue_dates: [
             // List over dates for when the blue trash bin will be emptied for this neighbourhood
             // Listi yfir allar dagsetningar þegar blátunnur eru tæmdar fyrir þetta hverfi
-            new Date(2021,0,14),new Date(2021,0,15),new Date(2021,1,11),new Date(2021,2,11),
-            new Date(2021,3,11),new Date(2021,4,15),new Date(2021,5,3),new Date(2021,6,1), new Date(2021,6,29), new Date(2021,7,26),
-            new Date(2021,8,23),new Date(2021,9,23),new Date(2021,10,18),new Date(2021,11,16)]
+            new Date(2022,0,4),new Date(2022,1,15),  new Date(2022,2,29),  new Date(2022,4,10), new Date(2022,5,21), new Date(2022,7,2), new Date(2022,8,13),
+            new Date(2022,9,25),new Date(2022,11,6)]
+	green_dates: [
+            new Date(2022,0,25),new Date(2022,2,8), new Date(2022,3,26), new Date(2022,4,31),,new Date(2022,6,12), new Date(2022,7,23), new Date(2022,9,4), 
+	    new Date(2022,10,15), new Date(2022,11,27)]
     },
     svaedi_2: {
         streets: ["Brekka",
