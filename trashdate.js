@@ -208,14 +208,19 @@ var temp_JSON = {
 "Birningsstaðir"
 ], 
         gray_dates: [
-            new Date(2020,11,29),new Date(2021,0,12),new Date(2021,0,26),new Date(2021,1,9),  new Date(2021,1,23), new Date(2021,2,9),  new Date(2021,2,23),
-            new Date(2021,3,6),  new Date(2021,3,20),new Date(2021,4,4), new Date(2021,4,18), new Date(2021,5,1),  new Date(2021,5,15), new Date(2021,5,29),
-            new Date(2021,6,13), new Date(2021,6,27),new Date(2021,7,10),new Date(2021,7,24), new Date(2021,8,7),  new Date(2021,8,21), 
-            new Date(2021,9,5),  new Date(2021,9,19),new Date(2021,10,2),new Date(2021,10,16),new Date(2021,10,30),new Date(2021,11,14),new Date(2021,11,28)],
+            // List over dates for when the gray trash bin will be emptied for this neighbourhood
+            // Listi yfir allar dagsetningar þegar tunnur fyrir almennt rusl eru tæmdar fyrir þetta hverfi
+            new Date(2022,0,11),new Date(2022,1,01),new Date(2022,1,22),new Date(2022,2,15),  new Date(2022,3,5), new Date(2022,3,26),  new Date(2022,4,17), 
+            new Date(2022,5,7),  new Date(2022,5,28),new Date(2022,6,19), new Date(2022,7,9), new Date(2022,7,30), new Date(2022,8,20), new Date(2022,9,11),
+            new Date(2022,10,1), new Date(2022,10,22),new Date(2022,11,13)],
         blue_dates: [
-            new Date(2021,0,22),new Date(2021,1,19),new Date(2021,2,19),new Date(2021,3,16),new Date(2021,4,14),
-            new Date(2021,5,11),new Date(2021,6,9),new Date(2021,7,6),new Date(2021,8,3),new Date(2021,9,1), new Date(2021,9,29),
-            new Date(2021,10,26),new Date(2021,11,23)]
+            // List over dates for when the blue trash bin will be emptied for this neighbourhood
+            // Listi yfir allar dagsetningar þegar blátunnur eru tæmdar fyrir þetta hverfi
+            new Date(2022,0,11),new Date(2022,1,22),  new Date(2022,3,5),  new Date(2022,4,17),  new Date(2022,5,28), new Date(2022,7,9), new Date(2022,8,20),
+            new Date(2022,10,1),new Date(2022,11,13)],
+	green_dates: [
+           new Date(2022,1,01),new Date(2022,2,15), new Date(2022,3,26), new Date(2022,5,7),new Date(2022,6,19), new Date(2022,7,30), new Date(2022,9,11),
+           new Date(2022,10,22)],
     },
     svaedi_4: {
         streets: ["Fornhólar",
