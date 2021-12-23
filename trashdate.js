@@ -282,15 +282,19 @@ var temp_JSON = {
 "Illugastaðir",
 "Reykir",], 
         gray_dates: [
-            new Date(2021,0,5), new Date(2021,0,19),new Date(2021,1,2), new Date(2021,1,16), new Date(2021,2,2), new Date(2021,2,16), new Date(2021,2,30),
-            new Date(2021,3,13),new Date(2021,3,27),new Date(2021,4,11),new Date(2021,4,25), new Date(2021,5,8), new Date(2021,5,22),
-            new Date(2021,6,6), new Date(2021,6,20),new Date(2021,7,3), new Date(2021,7,17), new Date(2021,7,31),new Date(2021,8,14), new Date(2021,8,28),
-            new Date(2021,9,12),new Date(2021,9,26),new Date(2021,10,9),new Date(2021,10,23),new Date(2021,11,7),new Date(2021,11,21)],
+            // List over dates for when the gray trash bin will be emptied for this neighbourhood
+            // Listi yfir allar dagsetningar þegar tunnur fyrir almennt rusl eru tæmdar fyrir þetta hverfi
+            new Date(2022,0,12),new Date(2022,1,2),new Date(2022,1,23),new Date(2022,2,16),  new Date(2022,3,6), new Date(2022,3,27),  new Date(2022,4,18), 
+            new Date(2022,5,8),  new Date(2022,5,29),new Date(2022,6,20), new Date(2022,7,10), new Date(2022,7,31), new Date(2022,8,21), new Date(2022,9,12),
+            new Date(2022,10,2), new Date(2022,10,23),new Date(2022,11,14)],
         blue_dates: [
-            new Date(2021,0,21),new Date(2021,1,18),new Date(2021,2,18),new Date(2021,3,16),new Date(2021,4,13),
-            new Date(2021,5,10),new Date(2021,6,8),new Date(2021,7,5),new Date(2021,8,2),  
-			new Date(2021,8,30), new Date(2021,9,31),
-            new Date(2021,10,25),new Date(2021,11,23)]
+            // List over dates for when the blue trash bin will be emptied for this neighbourhood
+            // Listi yfir allar dagsetningar þegar blátunnur eru tæmdar fyrir þetta hverfi
+            new Date(2022,0,12),new Date(2022,1,23),  new Date(2022,3,6),  new Date(2022,4,18),  new Date(2022,5,29), new Date(2022,7,10), new Date(2022,8,21),
+            new Date(2022,10,2),new Date(2022,11,14)],
+	green_dates: [
+           new Date(2022,1,2),new Date(2022,2,16), new Date(2022,3,27), new Date(2022,5,8),new Date(2022,6,20), new Date(2022,7,31), new Date(2022,9,12),
+           new Date(2022,10,23)],
     },
     svaedi_5: {
         streets: ["Geirastaðir",
