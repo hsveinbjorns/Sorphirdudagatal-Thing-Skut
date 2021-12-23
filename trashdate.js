@@ -350,14 +350,21 @@ var temp_JSON = {
 "Laxárbakki"
 ], 
         gray_dates: [
-            new Date(2020,11,30),new Date(2021,0,13),new Date(2021,0,27),new Date(2021,1,10), new Date(2021,1,24),new Date(2021,2,10), new Date(2021,2,24),
-            new Date(2021,3,7),  new Date(2021,3,21),new Date(2021,4,5), new Date(2021,4,19), new Date(2021,5,2), new Date(2021,5,16), new Date(2021,5,30),  
-            new Date(2021,6,14), new Date(2021,6,28),new Date(2021,7,11),new Date(2021,7,25), new Date(2021,8,8), new Date(2021,8,22),
-            new Date(2021,9,6),  new Date(2021,9,20),new Date(2021,10,3),new Date(2021,10,17),new Date(2021,11,1),new Date(2021,11,15),new Date(2021,11,29)],
+            // List over dates for when the gray trash bin will be emptied for this neighbourhood
+            // Listi yfir allar dagsetningar þegar tunnur fyrir almennt rusl eru tæmdar fyrir þetta hverfi
+            new Date(2022,0,18), new Date(2022,1,8),new Date(2022,1,1),new Date(2022,2,22),  new Date(2022,3,12), new Date(2022,4,3),  new Date(2022,4,24), 
+            new Date(2022,5,14),  new Date(2022,6,5),new Date(2022,6,26), new Date(2022,7,15), new Date(2022,8,6), new Date(2022,8,27), new Date(2022,9,18),
+            new Date(2022,10,8), new Date(2022,10,29),new Date(2022,11,20)],
         blue_dates: [
-            new Date(2021,0,7), new Date(2021,0,28), new Date(2021,1,25),new Date(2021,2,25),new Date(2021,3,24),
-            new Date(2021,4,21),new Date(2021,5,18), new Date(2021,6,15),new Date(2021,7,12),new Date(2021,8,9),
-            new Date(2021,9,7),new Date(2021,10,4),new Date(2021,11,2)]
+            // List over dates for when the blue trash bin will be emptied for this neighbourhood
+            // Listi yfir allar dagsetningar þegar blátunnur eru tæmdar fyrir þetta hverfi
+            new Date(2022,0,18),new Date(2022,1,1),  new Date(2022,3,12),  new Date(2022,4,24), 
+           ,  new Date(2022,6,5), new Date(2022,7,15), new Date(2022,8,27),
+            new Date(2022,10,8), new Date(2022,11,20)],
+	green_dates: [
+            new Date(2022,1,8),new Date(2022,2,22), new Date(2022,4,3), 
+            new Date(2022,5,14),new Date(2022,6,26), new Date(2022,8,6), new Date(2022,9,18),
+            new Date(2022,10,29)],
     },
 }
 
