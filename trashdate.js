@@ -282,8 +282,58 @@ var temp_JSON = {
             new Date(2021,10,25),new Date(2021,11,23)]
     },
     svaedi_5: {
-        streets: ["blómvangur","breiðvangur","brúsastaðir","glitvangur","heiðvangur","hjallabraut","hraunvangur","laufvangur",
-        "miðvangur","norðurvangur","skjólvangur","suðurvangur","sævangur","vesturvangur","víðivangur","þrúðvangur","klifið","dalbær"], 
+        streets: ["Geirastaðir",
+"Vagnbrekka",
+"Vindbelgur",
+"Ytri Neslönd",
+"Borg",
+"Syðri Neslönd",
+"Stiklur",
+"Grímsstaðir",
+"Hella",
+"Víðihlíð",
+"Reykjahlíð",
+"Helluhraun",
+"Hlíðavegur",
+"Skútahraun",
+"Birkihraun",
+"Lynghraun",
+"Múlavegur",
+"Klappahraun",
+"Sólgarðar",
+"Hólmar",
+"Hraunborg",
+"Björk",
+"Vogar",
+"Hraunteigur",
+"Hraunberg",
+"Bergholt",
+"Stuðlar",
+"Arnarnes",
+"Víkurnes",
+"Stekkholt",
+"Geiteyjarströnd",
+"Völuskrín",
+"Kálfaströnd",
+"Garður",
+"Grænavatn",
+"Dagmálaborg",
+"Skjólbrekka",
+"Skútustaðir",
+"Sel Hótel",
+"Tjarnarbrekka",
+"Álftagerði",
+"Haganes",
+"Sjónarhóll",
+"Gautlönd",
+"Litlastönd",
+"Heiði",
+"Baldurheimur",
+"Þórólfshvoll",
+"Arnarvatn",
+"Helluvað",
+"Laxárbakki"
+], 
         gray_dates: [
             new Date(2020,11,30),new Date(2021,0,13),new Date(2021,0,27),new Date(2021,1,10), new Date(2021,1,24),new Date(2021,2,10), new Date(2021,2,24),
             new Date(2021,3,7),  new Date(2021,3,21),new Date(2021,4,5), new Date(2021,4,19), new Date(2021,5,2), new Date(2021,5,16), new Date(2021,5,30),  
@@ -293,37 +343,6 @@ var temp_JSON = {
             new Date(2021,0,7), new Date(2021,0,28), new Date(2021,1,25),new Date(2021,2,25),new Date(2021,3,24),
             new Date(2021,4,21),new Date(2021,5,18), new Date(2021,6,15),new Date(2021,7,12),new Date(2021,8,9),
             new Date(2021,9,7),new Date(2021,10,4),new Date(2021,11,2)]
-    },
-    svaedi_6: {
-        streets: ["arnarhraun","álfaskeið","bæjarhraun","dalshraun","erluhraun","fálkahraun","flatahraun","kaplahraun","kjóahraun","klettahraun","krókahraun","lóuhraun",
-        "mánastígur","mávahraun","norðurbakki","skútahraun","sléttahraun","smyrlahraun","stapahraun","svöluhraun","trönuhraun","vitastígur","þrastahraun","sólvangsvegur"], 
-        gray_dates: [
-            new Date(2020,11,30),new Date(2021,0,13),new Date(2021,0,27),new Date(2021,1,10), new Date(2021,1,24),new Date(2021,2,10), new Date(2021,2,24),
-            new Date(2021,3,7),  new Date(2021,3,21),new Date(2021,4,5), new Date(2021,4,19), new Date(2021,5,2), new Date(2021,5,16), new Date(2021,5,30), 
-            new Date(2021,6,14), new Date(2021,6,28),new Date(2021,7,11),new Date(2021,7,25), new Date(2021,8,8), new Date(2021,8,22),
-            new Date(2021,9,6),  new Date(2021,9,20),new Date(2021,10,3),new Date(2021,10,17),new Date(2021,11,1),new Date(2021,11,15),new Date(2021,11,29)],
-        blue_dates: [
-            new Date(2021,0,7), new Date(2021,0,8), new Date(2021,0,29), new Date(2021,1,26),new Date(2021,2,26), 
-            new Date(2021,3,23),new Date(2021,4,21),new Date(2021,5,18), new Date(2021,6,16),new Date(2021,7,13), 
-            new Date(2021,8,10),new Date(2021,9,8),new Date(2021,10,5),new Date(2021,11,10)]
-    },
-    hverfi_7: {
-        streets: ["birkihvammur","bæjarhvammur","fagrihvammur","fjóluhvammur","háihvammur","hraunkambur","klausturhvammur","hvammabraut","lynghvammur","lækjarhvammur",
-        "reynihvammur","smárahvammur","staðarhvammur","stekkjarhvammur","suðurhvammur","túnhvammur","víðihvammur",
-        "brekkugata","hamarsbraut","hellubraut","hlíðarbraut","holtsgata","hringbraut","garðstígur","lækjargata","mýrargata","selvogsgata","strandgata","suðurgata","öldugata"], 
-        gray_dates: [
-            new Date(2021,0,6), new Date(2021,0,20),new Date(2021,1,3),  new Date(2021,1,17), new Date(2021,2,3), new Date(2021,2,17), new Date(2021,2,31),
-            new Date(2021,3,14),new Date(2021,3,28),new Date(2021,4,12), new Date(2021,4,26), new Date(2021,5,9), new Date(2021,5,23),
-            new Date(2021,6,7), new Date(2021,6,21),new Date(2021,7,4),  new Date(2021,7,18), new Date(2021,8,1), new Date(2021,8,15), new Date(2021,8,29),
-            new Date(2021,9,13),new Date(2021,9,27),new Date(2021,10,10),new Date(2021,10,24),new Date(2021,11,8),new Date(2021,11,22)],
-        blue_dates: [
-            new Date(2021,0,8), new Date(2021,1,5),  new Date(2021,2,5), new Date(2021,3,30), new Date(2021,4,28),
-            new Date(2021,5,25), new Date(2021,6,23) ,new Date(2021,7,20),new Date(2021,8,17),
-            new Date(2021,9,15),new Date(2021,10,12),new Date(2021,11,10)]
-        green_dates: [
-            new Date(2021,0,8), new Date(2021,1,5),  new Date(2021,2,5), new Date(2021,3,30), new Date(2021,4,28),
-            new Date(2021,5,25), new Date(2021,6,23) ,new Date(2021,7,20),new Date(2021,8,17),
-            new Date(2021,9,15),new Date(2021,10,12),new Date(2021,11,10)]
     },
 }
 
