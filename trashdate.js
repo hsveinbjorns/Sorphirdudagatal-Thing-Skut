@@ -124,7 +124,7 @@ var temp_JSON = {
 "Ásgarður",
 "Hólabak",
 "Álftanes",
-"Nes",
+"Nes Aðaldal",
 "Straumnes",
 "Laxárnes",
 "Árnes",
