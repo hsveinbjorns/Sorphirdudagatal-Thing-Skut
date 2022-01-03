@@ -3,7 +3,7 @@
 var temp_JSON = {
     // List of neighbourhoods
     // Listi af svæðum
-    svaedi_1: { 
+    hverfi_1: { 
         // List of all the streets in this neighbourhood
         // Listi yfir allar götur í þessu hverfi
         streets: ["Brún", "Hrísar", "Vallholt", "Fellshlíð", "Vellir", "Stafn", "Narfastaðir", "Lyngbrekka", "Daðastaðir", "Kárhóll",
@@ -28,7 +28,7 @@ var temp_JSON = {
             new Date(2022,0,25),new Date(2022,2,8), new Date(2022,3,26), new Date(2022,4,31),,new Date(2022,6,12), new Date(2022,7,23), new Date(2022,9,4), 
 	    new Date(2022,10,15), new Date(2022,11,27)]
     },
-    svaedi_2: {
+    hverfi_2: {
         streets: ["Brekka",
 "Brekkukot",
 "Hraun",
@@ -91,7 +91,7 @@ var temp_JSON = {
             new Date(2022,0,26),new Date(2022,2,9), new Date(2022,3,27), new Date(2022,5,01),,new Date(2022,6,13), new Date(2022,7,24), new Date(2022,9,5), 
 	    new Date(2022,10,16), new Date(2022,11,28)]
     },
-    svaedi_3: {
+    hverfi_3: {
         streets: ["Ófeigsstaðir",
 "Rangá",
 "Engihlíð",
@@ -147,7 +147,7 @@ var temp_JSON = {
            new Date(2022,1,01),new Date(2022,2,15), new Date(2022,3,26), new Date(2022,5,7),new Date(2022,6,19), new Date(2022,7,30), new Date(2022,9,11),
            new Date(2022,10,22)],
     },
-    svaedi_4: {
+    hverfi_4: {
         streets: ["Fornhólar",
 "Háls",
 "Sólvangur",
@@ -221,7 +221,7 @@ var temp_JSON = {
            new Date(2022,1,2),new Date(2022,2,16), new Date(2022,3,27), new Date(2022,5,8),new Date(2022,6,20), new Date(2022,7,31), new Date(2022,9,12),
            new Date(2022,10,23)],
     },
-    svaedi_5: {
+    hverfi_5: {
         streets: ["Geirastaðir",
 "Vagnbrekka",
 "Vindbelgur",
